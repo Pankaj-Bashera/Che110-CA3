@@ -23,3 +23,14 @@
   #nav-menu a:hover {
     text-decoration: underline; 
   }
+
+  .header{
+    text-align: center  ;
+    background-color: #fef;
+    margin:0;
+  }
+  .aa{
+    margin:60px 5%;
+    font-size:20px;
+    line-height: 25px;
+  }
