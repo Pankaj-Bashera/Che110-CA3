@@ -1,36 +1,87 @@
-#nav-menu {
-    background-color: #333; 
-    padding: 10px;
-    margin:0;
-  }
-  
-  #nav-menu ul {
-    list-style: none; 
-    margin: 0;
-    padding: 0;
-  }
-  
-  #nav-menu ul li {
-    display: inline; 
-    margin-right: 32px; 
-  }
-  
-  #nav-menu a {
-    text-decoration: none; 
-    color: #fff; 
-  }
-  
-  #nav-menu a:hover {
-    text-decoration: underline; 
-  }
+body {
+  background: linear-gradient(to top, rgba(240, 240, 249, 0.5)50%, rgba(248,248, 248, 0.5)50%);
+}
 
-  .header{
-    text-align: center  ;
-    background-color: #fef;
-    margin:0;
-  }
-  .aa{
-    margin:60px 5%;
-    font-size:20px;
-    line-height: 25px;
-  }
+.header {
+  text-align: center;
+  background-color: #fef;
+  margin: 10px;
+  padding-bottom:20px
+}
+
+.aa {
+  margin: 60px 5%;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.navbar {
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+
+.icon {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo {
+  color: #3b3b23;
+  font-size: 35px;
+  font-family: Arial;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+  margin-top: 5px
+}
+
+.menu {
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #111;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+  color: #f23;
+}
+
+.icons a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.icons ion-icon {
+  color: #fff;
+  font-size: 30px;
+  padding-left: 14px;
+  padding-top: 5px;
+  transition: 0.3s ease;
+}
+
+.icons ion-icon:hover {
+  color: #3b3b23;
+}

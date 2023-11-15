@@ -24,4 +24,8 @@
   text-decoration: underline;
 }
 
-body{background-image: url("https://th.bing.com/th/id/R.411af12474ed2285471ae859330a36fa?rik=zju%2fGGSDfAACdA&pid=ImgRaw&r=0");background-repeat: no-repeat;background-size: cover;}
+body{background-image: url("https://th.bing.com/th/id/R.411af12474ed2285471ae859330a36fa?rik=zju%2fGGSDfAACdA&pid=ImgRaw&r=0");background-repeat: no-repeat;background-size: cover;
+
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:large;
+}
