@@ -3,8 +3,15 @@
     background: peachpuff;
     margin:0;
 }
-body{
-    background-color: #fef;
+
+section {
+  margin: 0 auto; 
+  max-width: 1100px; 
+  padding: 20px;
+  font-family: Arial, sans-serif; 
+  background-color: #fef;
+  font-size:18px
+  
 }
 
 .imagediv{
@@ -41,9 +48,15 @@ body{
   #nav-menu a {
     text-decoration: none; 
     color: #fff; 
+    
   }
   
   #nav-menu a:hover {
     text-decoration: underline; 
   }
   
+  h1{
+    margin:0;
+    padding:20px;
+    
+  }

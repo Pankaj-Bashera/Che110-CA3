@@ -1,25 +1,27 @@
 #nav-menu {
-    background-color: #333; 
-    padding: 10px;
-    margin:0;
-  }
-  
-  #nav-menu ul {
-    list-style: none; 
-    margin: 0;
-    padding: 0;
-  }
-  
-  #nav-menu ul li {
-    display: inline; 
-    margin-right: 32px; 
-  }
-  
-  #nav-menu a {
-    text-decoration: none; 
-    color: #fff; 
-  }
-  
-  #nav-menu a:hover {
-    text-decoration: underline; 
-  }
+  background-color: #333;
+  padding: 10px;
+  margin: 0;text-align: center;
+}
+
+#nav-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#nav-menu ul li {
+  display: inline;
+  margin-right: 32px;
+}
+
+#nav-menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#nav-menu a:hover {
+  text-decoration: underline;
+}
+
+body{background-image: url("https://th.bing.com/th/id/R.411af12474ed2285471ae859330a36fa?rik=zju%2fGGSDfAACdA&pid=ImgRaw&r=0");background-repeat: no-repeat;background-size: cover;}
